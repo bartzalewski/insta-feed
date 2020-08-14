@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: "Open Sans";
+  background: #fafafa;
+}
+
+nav {
+  height: 54px;
+  background: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form {
+  margin: 0 auto;
+}
+
+#instagram-feed {
+  max-width: 975px;
+  margin: 2rem auto 0;
+  width: 90%;
+}
+
+#username {
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+  padding: 5px 25px;
+  text-align: center;
+}
+
+#username:focus {
+  text-align: left;
+}
+
+#search {
+  display: none;
+  visibility: hidden;
+}
